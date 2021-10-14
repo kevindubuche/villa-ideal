@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'ideal_villa.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dcrc3s2gkp6lqn',
+        'USER': 'ororjvqxryfgin',
+        'PASSWORD': '7df30818a344e876e235f670787d9919834eb3e0a27bbed21192e651ef16421a',
+        'HOST': 'ec2-52-70-120-204.compute-1.amazonaws.com'
     }
 }
 

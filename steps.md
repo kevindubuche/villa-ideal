@@ -5,7 +5,7 @@
 pip install django
 pip install gunicorn django-heroku
 python -m pip install Pillow
-5. django-admin sstartproject ideal_villa .
+5. django-admin startproject ideal_villa .
 6. python manage.py startapp stock
 8. in ideal_villa/setting.py add stock in INSTALLED_APP
 9. Create the models
