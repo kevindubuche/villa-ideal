@@ -1,0 +1,1 @@
+web: gunicorn villa_ideal.wsgi --log-file -

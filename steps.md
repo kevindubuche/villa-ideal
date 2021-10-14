@@ -15,6 +15,8 @@ python -m pip install Pillow
 admin/admin
 14. python3 manage.py runserver
 15. pipreqs
+16. add .gitignore
+17. add Procfile
 --------------HEROKU---------------
 1. Create procfile
 2. in seetings set DEBUG to Fasle
@@ -32,5 +34,3 @@ Django==2.2.12
 gunicorn==20
 Pillow==8.3.2
 
----Gmail----
-villaideal.mail@gmail.com
