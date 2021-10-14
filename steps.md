@@ -25,12 +25,12 @@ pip install psycopg2
 1. Create procfile
 2. in seetings set DEBUG to Fasle
 
- heroku run python3 manage.py makemigrations --app villa-ideal
- heroku run python3 manage.py migrate --app villa-ideal
- heroku run python3 manage.py createsuperuser --app villa-ideal
+ heroku run python3 manage.py makemigrations --app ideal_villa
+ heroku run python3 manage.py migrate --app ideal_villa
+ heroku run python3 manage.py createsuperuser --app ideal_villa
 
- heroku logs --tail --app villa-ideal
- heroku restart --app villa-ideal
+ heroku logs --tail --app ideal_villa
+ heroku restart --app ideal_villa
 
 django_heroku==0.3.1
 django_summernote==0.8.11.6
