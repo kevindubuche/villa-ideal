@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!76)e9wi3@+r)791j7j%khl$tt-fktdp!wv!y)s$$hk!wji3fr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://amiral-post.herokuapp.com/','localhost','127.0.0.1','villa-ideal.herokuapp.com']
+ALLOWED_HOSTS = ['*','https://amiral-post.herokuapp.com/','localhost','127.0.0.1','villa-ideal.herokuapp.com']
 
 
 # Application definition
