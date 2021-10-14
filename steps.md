@@ -17,6 +17,10 @@ admin/admin
 15. pipreqs
 16. add .gitignore
 17. add Procfile
+pip install psycopg2-binary
+sudo apt-get install libpq-dev
+pip install psycopg2
+
 --------------HEROKU---------------
 1. Create procfile
 2. in seetings set DEBUG to Fasle
