@@ -1,0 +1,50 @@
+
+List of status for Stay
+	-Booked
+	-Staying ?? (or on ot jan pouw di que moun lan utiliser reservation an vre)
+	-Cancelled
+	-checked-out
+	
+Traansitions 
+ Booked : staying - cancelled
+ staying : check-out
+ cancelled : etat final
+ checked-out : etat final
+ 	
+List of status for Room
+	-Booked
+	-Under Maintenance
+	-available
+	-issue_declared
+
+Transitions
+Booked : all
+under maintenance : available
+available : all
+issue_declared : all  	
+
+List of RoomTypes 
+	-Standard Single
+	-Standard Double
+	-Deluxe Single
+	-Deluxe Double
+	-Superior
+	-Deluxe Superior
+	-King Suite
+	-Pent House
+	-Presidential Suite I
+	-Presidential Suite II
+
+Room_Facility 
+(basically what the room comes with, like Standard Single :Single Bed, AC, Minibar, Satellite TV, Hot Water)
+Na ajouter l nan description + if smoking or not
+
+Gestion Guest
+add a guest table with a manytomany relation with stay
+
+Stay
+-add discount field 	
+-Add Holidays 
+
+
+	
